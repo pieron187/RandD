@@ -1,1 +1,1 @@
-# RandD project
+# RandD project starter kit
