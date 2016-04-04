@@ -1,0 +1,27 @@
+#aa {
+	display: block;
+}
+
+#bb {
+	display: block;
+}
+
+
+
+div {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: width 2s;
+}
+
+
+.a {
+  display: flex;
+  background: linear-gradient(red, green);
+}
+
+.button {
+  display: flex;
+  background: linear-gradient(red, green);
+}
