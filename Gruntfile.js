@@ -3,8 +3,7 @@
 module.exports = function(grunt) {
 
     require('load-grunt-tasks')(grunt);
-    require('es6-promise')(Promise);
-
+    var Promise = require('es6-promise').Promise;
 
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
