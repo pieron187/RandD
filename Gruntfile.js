@@ -2,7 +2,8 @@
 
 module.exports = function(grunt) {
 
-	require('load-grunt-tasks')(grunt);
+    require('load-grunt-tasks')(grunt);
+    require('es6-promise')(Promise);
 
 
     grunt.initConfig({
