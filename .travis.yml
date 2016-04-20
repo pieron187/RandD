@@ -3,6 +3,6 @@ node_js:
   - "0.10"
 before_script:
   - npm install grunt-cli -g
-  - npm install autdfdfoprefixer --save-dev
+  - npm install autoprefixer --save-dev
   - npm install grunt-postcss --save-dev
   - npm install es6-promise --save-dev
