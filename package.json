@@ -3,7 +3,11 @@
   "version": "0.1.0",
   "author": "idevAssembly",
   "scripts": {
+<<<<<<< HEAD
     "test": "grunt test"
+=======
+    "test": "grunt --verbose"
+>>>>>>> origin/master
   },
   "devDependencies": {
     "babel-plugin-transform-react-jsx": "^6.7.4",
