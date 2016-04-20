@@ -2,11 +2,7 @@ language: node_js
 node_js:
   - "0.10"
 before_script:
-<<<<<<< HEAD
-  - npm install grunt-cli -g
-=======
   - npm install grunt-cli -g
   - npm install autoprefixer --save-dev
   - npm install grunt-postcss --save-dev
   - npm install es6-promise --save-dev
->>>>>>> origin/master
