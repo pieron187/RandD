@@ -37,18 +37,29 @@ Workflow folder contains screenshots for existing and new checkout with all stag
 
 
 
-RandD
-	- workflow 						==> screenshots of old & updated workflow
-	- TDD		 					==> tests code code & setup
-	- app 							==> all html, css & JS files
-		-- src 						==> working files
-			--- js  				==> JS files
-				---- plugins 		==> Jquery etc
-				---- core			==> Main JS files
-				---- jsx-modules	==> React JSX files
-			--- css 				==> CSS (or preprocessor) files
-		-- dist						==> production files after automation
-
+	- RandD
+	
+		-- workflow 						==> screenshots of old & updated workflow
+		
+		-- TDD		 					==> tests code code & setup
+	
+		-- app 							==> all html, css & JS files
+		
+			--- src 						==> working files
+	
+				---- js  				==> JS files
+				
+					----- plugins 			==> Jquery etc
+					
+					----- core			==> Main JS files
+					
+					----- jsx-modules		==> React JSX files
+					
+				---- css 				==> CSS (or preprocessor) files
+				
+			--- dist						==> production files after automation
+	
+	
 
 Potentailly there will be changes to folder structure later on. Let's see how it goes.
 
