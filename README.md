@@ -32,11 +32,9 @@ Workflow folder contains screenshots for existing and new checkout with all stag
 
 
 
-================
 
 ## Folder structure
 
-================
 
 
 RandD
@@ -56,11 +54,11 @@ Potentailly there will be changes to folder structure later on. Let's see how it
 
 
 
-================
+
 
 ## React Modules structure
 
-================
+
 ### Modules types:
 
 	* Cont 						==> container
