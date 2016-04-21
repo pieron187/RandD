@@ -70,18 +70,6 @@ Potentailly there will be changes to folder structure later on. Let's see how it
 ## React Modules structure
 
 
-### Modules types:
-
-	* Cont 						==> container
-	* Frm 						==> form
-	* Btn 						==> button
-	* FrmInp 					==> form inputs
-	* Integ						==> 3rd party integration code
-
-
-
-
-
 ### List of modules (.jsx):
 
 
