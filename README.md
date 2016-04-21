@@ -1,9 +1,5 @@
-# RandD project
+# RandD project Starter kit
 
-Starter kit
-
-
-================
 
 ## Instalation
 
