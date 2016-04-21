@@ -3,8 +3,6 @@
 
 ## Instalation
 
-================
-
 1. Fork the following project from GitHub to your GitHub account and Clone it somewhere locally on your machine --> https://github.com/pieron187/RandD.git
 2. Install node.js (if not already)
 3. Go to your local folder, Install grunt-cli (if not already) --> npm install -g grunt-cli
