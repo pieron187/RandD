@@ -6,5 +6,6 @@ before_script:
   - npm install autoprefixer --save-dev
   - npm install grunt-postcss --save-dev
   - npm install es6-promise --save-dev
+  - npm install grunt-contrib-jasmine --save-dev
   
   

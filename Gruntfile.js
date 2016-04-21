@@ -59,12 +59,22 @@ module.exports = function(grunt) {
 				tasks: ['postcss', 'babel', 'uglify'],
 				options: {
 					spawn: false,
-				},
-			},
-		}
-
-
-
+				}
+			}
+		},
+        
+        jasmine: {
+            components: {
+              src: [
+              'TDD/src/*js'
+              ],
+              options: {
+                specs: 'TDD/spec/*Spec.js',
+                keepRunner : true//,
+                //helpers: 'test/spec/*.js'
+              }
+            }
+        }
     });
 
 
@@ -72,10 +82,11 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-postcss');
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-watch');
+    grunt.loadNpmTasks('grunt-contrib-jasmine');
 
 
 
-    grunt.registerTask('default', ['postcss', 'babel', 'uglify']);
+    grunt.registerTask('default', ['postcss', 'babel', 'uglify', 'jasmine']);
     grunt.registerTask('css', ['postcss']);
     grunt.registerTask('js', ['babel', 'uglify']);
 
