@@ -1,6 +1,4 @@
-#### Travis build status
-
-[![Build Status](https://travis-ci.org/pieron187/RandD.svg?branch=master)](https://travis-ci.org/pieron187/RandD)
+##### Travis build status [![Build Status](https://travis-ci.org/pieron187/RandD.svg?branch=master)](https://travis-ci.org/pieron187/RandD)
 
 
 # RandD project Starter kit
