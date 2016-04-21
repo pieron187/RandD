@@ -33,12 +33,12 @@ module.exports = function(grunt) {
 	        },
 	        jsx: {
 				files: {
-					'app/src/js/components/react-es5.js': 'app/src/js/components/react.jsx'
+					'app/src/js/core/react-es5.js': 'app/src/js/core/react.jsx'
 				}
 			},
 	        dist: {
 	            files: {
-	                'app/src/js/components/main-es5.js': 'app/src/js/components/main.js'
+	                'app/src/js/core/main-es5.js': 'app/src/js/core/main.js'
 	            }
 	        }
 	    },
@@ -47,8 +47,8 @@ module.exports = function(grunt) {
 	    uglify: {
 			my_target: {
 				files: {
-					'app/dist/js/main.min.js': 'app/src/js/components/main-es5.js',
-					'app/dist/js/react.min.js': 'app/src/js/components/react-es5.js'
+					'app/dist/js/main.min.js': 'app/src/js/core/main-es5.js',
+					'app/dist/js/react.min.js': 'app/src/js/core/react-es5.js'
 				}
 			}
 		},
@@ -62,7 +62,7 @@ module.exports = function(grunt) {
 				}
 			}
 		},
-        
+
         jasmine: {
             components: {
               src: [
@@ -89,6 +89,7 @@ module.exports = function(grunt) {
     grunt.registerTask('default', ['postcss', 'babel', 'uglify', 'jasmine']);
     grunt.registerTask('css', ['postcss']);
     grunt.registerTask('js', ['babel', 'uglify']);
+    grunt.registerTask('tests', ['jasmine']);
 
 
 };
